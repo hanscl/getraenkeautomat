@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f8b2cdc-b95f-4757-9d19-4fcf1a66c9a4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1khqkTlUGwOwoYKDZg1ewevvqKN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AutomatTests.testTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="getraenkeautomat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutomatTests" />
+      <option name="METHOD_NAME" value="testTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AutomatTests.testTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="311" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606163614474">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="311" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163614474" />
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom" timestamp="1606163819143">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819143" />
+    <state width="1358" height="249" key="GridCell.Tab.0.center" timestamp="1606163819141">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819141" />
+    <state width="1358" height="249" key="GridCell.Tab.0.left" timestamp="1606163819140">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819140" />
+    <state width="1358" height="249" key="GridCell.Tab.0.right" timestamp="1606163819142">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819142" />
+    <state x="544" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606163739717">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="544" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163739717" />
+  </component>
+</project>
