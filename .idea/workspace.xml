@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -25,49 +26,137 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager">
-    <configuration name="AutomatTests.testTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="main" />
+      <recent name="main.java" />
+      <recent name="test.java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GetraenkeAutomat">
+    <configuration name="AusgabefachTest.testAusgabefach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="getraenkeautomat" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutomatTests" />
-      <option name="METHOD_NAME" value="testTest" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AusgabefachTest" />
+      <option name="METHOD_NAME" value="testAusgabefach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutomatTests.testAutomatErstellungUndAusgabefachKonfiguration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="getraenkeautomat" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AutomatTests" />
+      <option name="METHOD_NAME" value="testAutomatErstellungUndAusgabefachKonfiguration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetraenkeAutomat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="getraenkeautomat" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GetraenkeAutomat" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MuenzenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="getraenkeautomat" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MuenzenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AutomatTests.testAutomatErstellungUndAusgabefachKonfiguration" />
+      <item itemvalue="JUnit.AusgabefachTest.testAusgabefach" />
+      <item itemvalue="JUnit.MuenzenTest" />
+      <item itemvalue="JUnit.GetraenkeAutomat" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutomatTests.testTest" />
+        <item itemvalue="JUnit.GetraenkeAutomat" />
+        <item itemvalue="JUnit.MuenzenTest" />
+        <item itemvalue="JUnit.AutomatTests.testAutomatErstellungUndAusgabefachKonfiguration" />
+        <item itemvalue="JUnit.AusgabefachTest.testAusgabefach" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
-    <state x="311" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606163614474">
+    <state x="259" y="150" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606176175578">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state x="311" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163614474" />
-    <state width="1358" height="249" key="GridCell.Tab.0.bottom" timestamp="1606163819143">
+    <state x="259" y="150" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606176175578" />
+    <state x="530" y="312" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606176728267">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819143" />
-    <state width="1358" height="249" key="GridCell.Tab.0.center" timestamp="1606163819141">
+    <state x="530" y="312" key="#com.intellij.ide.util.PackageChooserDialog/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606176728267" />
+    <state x="562" y="426" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606176798993">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819141" />
-    <state width="1358" height="249" key="GridCell.Tab.0.left" timestamp="1606163819140">
+    <state x="562" y="426" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606176798993" />
+    <state x="519" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606204960989">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819140" />
-    <state width="1358" height="249" key="GridCell.Tab.0.right" timestamp="1606163819142">
+    <state x="519" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606204960989" />
+    <state width="477" height="466" key="DebuggerActiveHint" timestamp="1606191931960">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163819142" />
+    <state width="477" height="466" key="DebuggerActiveHint/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606191931960" />
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom" timestamp="1606208882232">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606208882232" />
+    <state width="1358" height="251" key="GridCell.Tab.0.center" timestamp="1606208882232">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606208882232" />
+    <state width="1358" height="251" key="GridCell.Tab.0.left" timestamp="1606208882231">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606208882231" />
+    <state width="1358" height="251" key="GridCell.Tab.0.right" timestamp="1606208882232">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606208882232" />
+    <state width="1358" height="308" key="GridCell.Tab.1.bottom" timestamp="1606207789578">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="308" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606207789578" />
+    <state width="1358" height="308" key="GridCell.Tab.1.center" timestamp="1606207789577">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="308" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606207789577" />
+    <state width="1358" height="308" key="GridCell.Tab.1.left" timestamp="1606207789577">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="308" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606207789577" />
+    <state width="1358" height="308" key="GridCell.Tab.1.right" timestamp="1606207789578">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1358" height="308" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606207789578" />
+    <state x="282" y="167" key="SettingsEditor" timestamp="1606183923746">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="282" y="167" key="SettingsEditor/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606183923746" />
     <state x="544" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606163739717">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="544" y="477" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606163739717" />
+    <state x="446" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1606200846979">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="446" y="266" width="670" height="676" key="search.everywhere.popup/1680.23.1920.1057/0.23.1680.973@0.23.1680.973" timestamp="1606200846979" />
   </component>
 </project>
