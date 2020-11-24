@@ -66,7 +66,8 @@ public class Automat extends Kasse {
         return getraenke.get(ean).getPreis();
     }
 
-    public Map<String, Number> produktKauf(String ean, float bezahlBetrag) {
+    public Map<String, Number> produktKauf(String ean, int[] bezahlungInMuenzen) {
+        float bezahlBetrag = berechneBetrag(bezahlungInMuenzen);
         Map<String, Number> getraenkUndWechselgeld = new HashMap<>();
 
         if (getraenke.get(ean).getVorrat() == 0 || bezahlBetrag < getProduktPreis(ean)) {

@@ -39,7 +39,7 @@ public class GetraenkeAutomat {
         System.out.println(testAutomat.getraenkeListe());
 
         // Wechselgeld auffuellen - mehr als maximal platz fuer muenzen - sollte automatisch reduziert werden auf m
-        testAutomat.wechselgeldAuffuellen(120,200,100, 50,20 );
+        testAutomat.wechselgeldAuffuellen(120, 200, 100, 50, 20);
         System.out.println(testAutomat.kassenbestandAnzeigen());
 
         // Wechselgeld entleeren
@@ -48,7 +48,7 @@ public class GetraenkeAutomat {
         System.out.println(testAutomat.kassenbestandAnzeigen());
 
         // jetzt mal etwas weniger Wechselgeld hinein, damit wir unsere Wechselfunktion pruefen koennen!
-        testAutomat.wechselgeldAuffuellen(10,5,4, 1,2 );
+        testAutomat.wechselgeldAuffuellen(10, 5, 4, 1, 2);
 
         System.out.println(testAutomat.kassenbestandAnzeigen());
 
@@ -59,11 +59,11 @@ public class GetraenkeAutomat {
         Assertions.assertEquals(1.9f, testAutomat.getProduktPreis("5678"), "Pepsi kostest EUR 1.90");
 
         // Versuchen wir es mal mit weniger Geld zu kaufen :)
-        System.out.println(testAutomat.produktKauf("5678", 1.50f));
+        System.out.println(testAutomat.produktKauf("5678", new int[]{0, 0, 1, 1, 0}));
         System.out.println(testAutomat.kassenbestandAnzeigen());
 
         // jetzt dann mit genug Geld => muessten 1 Pepsi bekommen und EUR 0.10 wechselgeld
-        System.out.println(testAutomat.produktKauf("5678", 2f));
+        System.out.println(testAutomat.produktKauf("5678", new int[]{0, 0, 0, 0, 1}));
         // ist das wechselgeld und unsere Einnahment korrekt?
         Assertions.assertEquals(8.9f, testAutomat.getWechelsgeldBestand(), "Erwarte 8.90");
         Assertions.assertEquals(1.9f, testAutomat.getEinnahmen(), "Erwarte 1.90");
@@ -74,8 +74,7 @@ public class GetraenkeAutomat {
         Assertions.assertEquals(false, testAutomat.produktIstVerfuegbar("5678"), "Erwarte TRUE");
 
         // Jetzt versuchen wir ein ausverkauftes Getraenk zu kaufen!
-        // Versuchen wir es mal mit weniger Geld zu kaufen :)
-        System.out.println(testAutomat.produktKauf("5678", 5f));
+        System.out.println(testAutomat.produktKauf("5678", new int[]{0, 0, 0, 1, 2}));
 
         // Wichtig => der produktverkauf ist fehlgeschlagen und der kunde hat sein Geld zurueckbekommen. Also duerfte
         // das Wechselgeld im Automaten unveraendert sein.
@@ -90,13 +89,13 @@ public class GetraenkeAutomat {
         Assertions.assertEquals(0f, testAutomat.getWechelsgeldBestand(), "Erwarte 0");
 
         // jetzt mal etwas weniger Wechselgeld hinein, damit wir unsere Wechselfunktion pruefen koennen!
-        testAutomat.wechselgeldAuffuellen(5,5,0, 3,0 );
+        testAutomat.wechselgeldAuffuellen(5, 5, 0, 3, 0);
         System.out.println(testAutomat.kassenbestandAnzeigen());
-        System.out.println(testAutomat.produktKauf("1234", 5.00f));
+        System.out.println(testAutomat.produktKauf("1234", new int[]{0, 0, 0, 1, 2}));
         System.out.println(testAutomat.kassenbestandAnzeigen());
 
         // Und jetzt haben wir nicht mehr genug wechselgeld ...
-        System.out.println(testAutomat.produktKauf("1234", 2.00f));
+        System.out.println(testAutomat.produktKauf("1234", new int[]{0, 0, 0, 0, 1}));
         System.out.println(testAutomat.kassenbestandAnzeigen());
     }
 }

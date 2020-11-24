@@ -34,7 +34,7 @@ public class Kasse {
 
     private int[] wechselgeldInMuenzen(int wechselBetragInCent) {
         int[] wechselGeldInMuenzen = new int[5];
-        int[] tempWechselBestand = wechselgeldBestand;
+        int[] tempWechselBestand = wechselgeldBestand.clone();
         for (int i = muenzen.length - 1; i >= 0; i--) {
             // maximal betrag fuer die momentane muenze
             int restBetrag = wechselBetragInCent % muenzen[i].getWertInCent();
@@ -85,7 +85,7 @@ public class Kasse {
         return berechneBetrag(wechselgeldBestand);
     }
 
-    private float berechneBetrag(int[] muenzenAnzahl) {
+    protected float berechneBetrag(int[] muenzenAnzahl) {
         int betragInCent = 0;
         for (int i = 0; i < muenzenAnzahl.length; i++) {
             betragInCent += muenzenAnzahl[i] * muenzen[i].getWertInCent();
